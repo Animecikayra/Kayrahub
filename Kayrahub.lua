@@ -38,6 +38,8 @@ elseif game.PlaceId == 5835263912 then -- Anime Mania --
 loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/OPM.lua"))()
 elseif game.PlaceId == 221718525 then -- Ninja Tycoon
 loadstring(game:HttpGet("https://reativ.ru/Scripts/Free/NT.lua", true))()
+elseif game.PlaceId == 1962086868 then -- tower of hell
+loadstring(game:HttpGet("raw.githubusercontent.com/Kayradeveloper/Kayrahub/main/Kayrahubtowerofhell.lua", true))()
 else
     game.Players.LocalPlayer:Kick("Kayrahub not support your game :(")
 end
