@@ -1,7 +1,7 @@
 if game.PlaceId == 4616652839 then --Shindo life
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Kayradeveloper/Kayrahub/main/Kayrahubsindolife'))()
 elseif game.PlaceId == 286090429 then --arsenal
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Kayradeveloper/Kayrahub/main/Kayrahubarsenal'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NougatBitz/ArsenalHaxx/master/Script'))()
 elseif game.PlaceId == 3400631762 then -- JJB
 loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/JJB.lua"))()
 elseif game.PlaceId == 4313854107 then -- JJB ITALY
