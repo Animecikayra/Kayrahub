@@ -29,7 +29,7 @@ loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/projectxl.lua"
 elseif game.PlaceId == 6329844902 then -- Last Piece --
 loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/lastpiece.lua"))()
 elseif game.PlaceId == 5293755937 then -- Speed Simulator --
-loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/SRS.lua"))()
+loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/SRS.lua"))() 
 elseif game.PlaceId == 5569431582 then -- Little World --
 loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/LittleWorld.lua"))()
 elseif game.PlaceId == 6284881984 then -- Anime Mania --
@@ -40,6 +40,8 @@ elseif game.PlaceId == 221718525 then -- Ninja Tycoon
 loadstring(game:HttpGet("https://reativ.ru/Scripts/Free/NT.lua", true))()
 elseif game.PlaceId == 1962086868 then -- tower of hell
 loadstring(game:HttpGet("raw.githubusercontent.com/Kayradeveloper/Kayrahub/main/Kayrahubtowerofhell.lua", true))()
+elseif game.PlaceId == 2041312716 then -- Radgoll engine --
+loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua", true))()
 else
     game.Players.LocalPlayer:Kick("Kayrahub not support your game :(")
 end
